@@ -13,9 +13,10 @@ int main ()
     {
         fflush(stdin);
         printf("Enter your Roll number : ");
-        // scanf("%d",&d1.a[i]);
-        gets(d1.a[i]);
+        scanf("%d",&d1.a[i]);
+        // gets(d1.a[i]);
         printf("Enter your name : ");
+        fflush(stdin);
         gets(d1.b[i]);
         printf("Enter your age : ");
         scanf("%d",&d1.c[i]);
