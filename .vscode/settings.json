@@ -1,0 +1,9 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "system_error": "c",
+        "xlocale": "c",
+        "practice10.h": "c",
+        "cmath": "c"
+    }
+}
