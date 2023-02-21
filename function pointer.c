@@ -20,3 +20,25 @@ int main ()
 
     return 0;
 }
+
+// using static variable
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int *add(int *a, int *b)
+{
+static int c;
+c=(*a)+(*b);
+return &c;
+}
+int main ()
+{
+    int a,b;
+    printf("Enter the two Numbers : ");
+    scanf("%d%d",&a,&b);
+    
+    int *ptr=add(&a,&b);
+    printf("sum of %d and %d is %d",a,b,*ptr);
+    return 0;
+}
